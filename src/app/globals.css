@@ -25,3 +25,33 @@ body {
     text-wrap: balance;
   }
 }
+
+
+/* styles.css or your CSS file */
+:root {
+  --parrot: #24d700; /* Define the parrot color */
+}
+
+/* Customize the radio buttons */
+input[type="radio"].appearance-none:checked {
+  background-color: var(--parrot); /* Parrot color when checked */
+}
+
+input[type="radio"].appearance-none {
+  border-color: var(--parrot); /* Parrot color for border */
+}
+
+/* Add custom button styles */
+button.bg-parrot {
+  background-color: var(--parrot);
+}
+
+/* Custom border color for price buttons */
+.border-custom-green {
+  border-color: var(--custom-green);
+}
+
+/* Background color for selected price buttons */
+.bg-custom-green {
+  background-color: var(--custom-green);
+}
